@@ -6,7 +6,7 @@ import time
 conn = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    password = "1203",
+    password = "-------",
     database = "temperature_db"
 )
 

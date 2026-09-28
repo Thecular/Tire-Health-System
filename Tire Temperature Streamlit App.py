@@ -9,7 +9,7 @@ def get_data():
     conn = mysql.connector.connect(
         host = "localhost",
         user = "root",
-        password = "1203",
+        password = "-------",
         database = "temperature_db"
 )
     
@@ -20,7 +20,7 @@ def get_data():
 # Streamlit App
 
 st.set_page_config(page_title = "Tire Temperature Dashboard", layout = "centered")
-st.title("Tire Temperature Dasboard")
+st.title("Tire Temperature Dashboard")
 
 placeholder = st.empty()
 
