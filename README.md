@@ -73,3 +73,6 @@ Tire Wear-Rate(mm/km)
 * Original evaluation metrics: Root Mean-Squared Error(RMSE), Mean Absolut Error(MAE), R-Squared(R²)
 * Original results: The linear regression out-performed random forest regression across the evaluation metrics.
 
+
+
+▶ Evaluation Methodology............processing.............

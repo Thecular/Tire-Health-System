@@ -1,4 +1,4 @@
-# Data Generator
+#Data Generator
 import mysql.connector
 import random
 import time
@@ -15,7 +15,7 @@ cursor = conn.cursor()
 while True:
     temp = random.randint(20, 40)
     cursor.execute("INSERT INTO temperature(temp_value) VALUES(%s)", (temp,))
-    
+
     conn.commit()
     time.sleep(2)
 
