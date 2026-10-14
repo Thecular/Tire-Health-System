@@ -1,0 +1,19 @@
+Model Evaluation
+Preprocessing Stage
+1) Round all columns to 3 decimal places supporting the physics of the model.✅
+2) Change time column to timedelta✅
+3) Rename the columns✅
+
+Feature Engineering Stage
+1) Scale using min-max scaler due to different unit values of the features and a normal distribution✅
+
+EDA Stage
+1) Import the needed library for ARIMA models✅
+2) Splitting the dataset set into train and test(would 've done the full train,validate and test but the dataset is
+   small).✅
+3) Using ADF to check for stationarity✅
+4) Differencing and ADF to select d value✅d=0
+5) Using ACF and PACF to select the p,q values✅range of 0-6.
+
+Model Training and Evaluation Stage
+1)
