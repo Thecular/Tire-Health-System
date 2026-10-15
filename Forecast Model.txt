@@ -16,4 +16,6 @@ EDA Stage
 5) Using ACF and PACF to select the p,q values✅range of 0-6.
 
 Model Training and Evaluation Stage
-1)
+1) Fit range to select the best p and q model✅
+2) Train the model✅
+3) Predict and Evaluate the model
