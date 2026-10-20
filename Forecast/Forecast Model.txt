@@ -18,4 +18,4 @@ EDA Stage
 Model Training and Evaluation Stage
 1) Fit range to select the best p and q model✅
 2) Train the model✅
-3) Predict and Evaluate the model
+3) Forecast and evaluate the model✅
